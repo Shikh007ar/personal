@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+  <!-- <title>Blog Signup</title> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/14bf636678.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/bootstrap-social.css">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body style="background-color: #f8dc88;">
+  <div class="container" style="margin-top: 80px;">
+    <div class="row" style="box-shadow: 2px 4px 30px -8px #917d91;">
+      <div class="text-center div1 col-lg-4">
+        <img class="my-image" src="shikhar.jpg">
+        <h1 style="font-family: 'UnifrakturMaguntia', cursive; color: white;">Shikhar's BLOG</h1>
+        <p style="color: #e8f9e9">Glad you're here.</p>
+        <p style="color: #e8f9e9; padding: 0 80px 0 80px;">Hope you'll go through all the content and appreciate my work.</p>
+      </div>
+      <div class="div2 col-lg-4">
+        <form action="/login" class="form-signin" method="POST">
+          <p class="paragraph">Login into Blog</p>
+          <p class="Label">Email Address</p>
+          <input type="email" name="username" class="form-control bottom" placeholder="arijittripathi07@gmail.com" required>
+          <p class="Label">Password</p>
+          <input type="password" name="password" class="form-control bottom" placeholder="**********" required>
+          <button style="margin-top: 20px; margin-bottom: 30px; padding: 5px 30px 5px 30px;" class="btn btn-sm btn-dark " type="submit">LOGIN</button>
+          <p style="color: #ffa34d; font-family: 'Exo', sans-serif;">Create an account?</p>
+          <a style=" padding: 5px 30px 5px 30px;" class="btn btn-sm btn-dark " href="/register" role="button">Register</a>
+        </form>
+      </div>
+      <div class="col-lg-4 div2">
+        <div class="card-body">
+          <a class="btn btn-block btn-social btn-google" href="/auth/google" role="button"><i class="fab fa-google"></i>Sign In with Google</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

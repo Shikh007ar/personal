@@ -1,0 +1,236 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.navbar {
+  height: 80px;
+  background-color: #f8dc88;
+}
+
+.nav-word {
+  color: #1b262c;
+}
+.nav-word:hover{
+  color: #f4eeff;
+}
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+}
+
+.nav-item {
+  padding: 0 15px 0 15px;
+}
+
+#Title {
+  background-color: #f8dc88;
+  padding-bottom: 100px;
+}
+
+.image-size {
+  width: 60%;
+  margin: 50px 0 0 200px;
+  border-radius: 25px;
+}
+.my-image{
+  width:100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.download-button-1 {
+  margin-left: 750px;
+  margin-top: : 20px;
+  color: white;
+}
+
+.download-button {
+  margin-left: 100px;
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+.Firsth1 {
+  font-family: 'Abril Fatface', cursive;
+  text-align: left;
+  padding: 150px 30px 10px 100px;
+}
+
+.Firstp {
+  font-family: 'Cabin', sans-serif;
+  text-align: left;
+  padding: 10px 20px 10px 100px;
+}
+
+
+#Profile{
+  max-width: 1280;
+  padding: 40px 180px;
+
+}
+.Profileh1{
+  font-size: 54px;
+  text-align: center;
+  color: #f8dc88;
+  font-family: 'Caladea', serif;
+  margin-top: 20px;
+}
+.Profileh3{
+  font-size: 28px;
+  color: #f8dc88;
+  font-family: 'Exo', sans-serif;
+  padding-bottom: 20px;
+}
+.imageabout{
+  height: 230px;
+  width: 230px;
+  border-radius: 100%;
+  -moz-border-radius: 30px;
+}
+.textColor1{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+
+
+
+
+#Blog {
+  margin-top: 20px;
+  background-color: #d1cebd;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Exo', sans-serif;
+  padding: 0 70px 0 70px;
+  margin-bottom: 20px;
+}
+
+.about:before,
+.about:after {
+  content: "";
+  flex: 5 5;
+  border-bottom: 2px solid #706c61;
+  margin: auto;
+  padding: 0 10px 0 10px;
+}
+
+
+
+.form-signin {
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+  margin: 100px 0 0 30px;
+}
+.form-register{
+  width: 100%;
+  padding: 15px;
+  margin: 30px 0 0 30px;
+}
+.form-control{
+  width: 100%;
+}
+.Label{
+  font-size: 15px;
+  margin-bottom: 5px;
+  padding-top: 15px;
+}
+.div1{
+  height:600px;
+  background-color: #596157;
+}
+.div2{
+  height: 600px;
+  background-color: white;
+}
+.div21{
+  margin-top: 100px;
+  height: 600px;
+  width: 710px;
+  background-color: white;
+}
+.paragraph{
+  text-align: centre;
+  font-size: 28px;
+  font-family: 'Liu Jian Mao Cao',cursive;
+}
+
+
+.aboutme{
+  width: 944px;
+}
+
+.Photo1{
+  width: 300px;
+  height: 250px;
+  border-radius: 50px;
+
+}
+.padding1{
+  padding-top: 50px;
+  padding-left: 120px;
+  height:450px;
+  width:500px;
+    background-color: #f4eeff;
+}
+.padding2{
+  height:450px;
+  width:600px;
+  padding-top: 50px;
+  background-color: #f4eeff;
+}
+.textColor{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+}
+
+
+
+.background-grey{
+  background-color: #434242;
+}
+#contact{
+  max-width: 1280px;
+  padding: 40px 0 200px 0;
+}
+.contacth1{
+  color: white;
+  font-family: 'Assistant', sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+.contactp{
+  color: #687466;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.icons{
+  padding-right: 20px;
+  cursor: pointer;
+position: absolute;
+}
+.acolor{
+  color: #687466;
+  font-size: 20px;
+
+}
+.acolor:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.Link{
+  padding-left: 60px;
+}

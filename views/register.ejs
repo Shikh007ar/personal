@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/14bf636678.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/bootstrap-social.css">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body style="background-color: #f8dc88;">
+  <div class="div21 container" style="box-shadow: 6px 5px 34px -4px #917d91;">
+    <div class="row">
+      <div class="col-lg-6">
+        <form action="/register" class="form-register" method="POST">
+          <p style="margin-top: 50px;" class="paragraph">Register for Blog</p>
+          <p class="Label">First Name</p>
+          <input type="text" name="first" class="form-control top" placeholder="Arijit" required autofocus>
+          <p class="Label">Last Name</p>
+          <input type="text" name="last" class="form-control middle" placeholder="Tripathi" required>
+          <p class="Label">Email Address</p>
+          <input type="email" name="username" class="form-control bottom" placeholder="arijittripathi07@gmail.com" required>
+          <p class="Label">Password</p>
+          <input type="password" name="password" class="form-control bottom" placeholder="**********" required>
+          <button style="margin-top: 20px; margin-bottom: 30px; padding: 5px 30px 5px 30px;" class="btn btn-sm btn-dark " type="submit">REGISTER</button>
+        </form>
+      </div>
+      <div class="col-lg-6">
+        <div class="card-body">
+          <a class="btn btn-block btn-social btn-google" href="/auth/google" role="button"><i class="fab fa-google"></i>Sign Up with Google</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
